@@ -1,0 +1,81 @@
+GIT SESSION :
+-------------
+
+Git Branch Creation:
+--------------------
+
+	git checkout -b {your_local_branch_name} 
+	git push --set-upstream origin your_branch
+	
+Git Branch :[To Konw which Branch]
+------------
+
+	git branch ["List out the local branch"]
+	git branch -a ["List out all remote branch"]
+
+Git Branch Switch:[One Branch to Another Branch]
+------------------
+
+	git checkout branch_name
+	git checkout -b new-branch master
+  
+Git Status :
+------------
+
+	git status 
+	
+Git File Add :
+-------------
+
+	git add File_name
+	git add --all 
+	git add -A
+	git add .
+	
+Git Commit : 
+------------
+
+	git commit -m "Commit Message"
+	
+Git Push :
+----------
+	
+	git push origin Branch_Name
+	
+Git Branch Delete :
+-------------------
+
+	git branch -d branch_name
+	git branch -D branch_name
+	git push origin --delete branch_name
+	
+Git Stash :
+-----------
+
+	git stash save ""
+	git stash list
+	git stash apply stash@(0)
+	git stash pop
+	
+=================================================================================================
+Update your branch when the origin al branch from official repository has been updated :
+
+	git fetch [name_of_your_remote]
+
+Anytime you want to update your branch from any other branch say master.
+
+	git pull origin master.
+=================================================================================================
+Examples :
+----------
+	1.yum install git 
+	2.git --version
+	3.ssh-keygen -t rsa (copy pub key to Gitlab account)
+	4.git config --global user.name ()
+	5.git config --global user.email ()
+	6.git clone ()
+	7.git add .
+	8.git status
+	9.git commit -m "Commit message"
+	10.git branch 
+	11.git push origin master
