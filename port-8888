@@ -1,0 +1,39 @@
+step-1 :  (VM PROVISION)
+--------
+
+	-->>create a ubuntu vm
+	
+step-2 : (PACKAGE INSTALL)
+--------
+ 
+	-->>apt-get update -y
+	
+	-->>apt-get install apache2
+	
+	-->>sytstemctl start apache2
+	
+	-->>sytstemctl enable apache2
+	
+step-3 :  (create a web page)
+-------
+
+	-->>go to cd /var/www/html
+	
+	-->>create a one html file in that directory
+	
+	-->>go to browser type IP:portnumber(80).it will show the created html file.
+	
+step-4 :  (set port 8888)
+--------
+
+	-->>go to  vim /etc/apache2/ports.conf 
+	
+	-->>change the portnumber 80 -->> 8888 and save the file
+	
+	-->>restart the apacha2 server
+	
+result :
+---------
+
+	-->> http://18.118.139.17:8888/
+	
