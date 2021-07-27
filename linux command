@@ -1,0 +1,54 @@
+Wget : 
+------
+
+	-->>Wget is a command-line utility for downloading files from the web.
+	
+	-->>wget [options] [url]
+	
+	-->>without option -> wget url
+	
+	-->>save different name -> wget -O (name)(url)
+	
+	-->>save file in directory -> wget -P (path) (url)
+	
+	-->>control internet speed -> wget --limit-rate=100k (url)
+
+	-->>resume download -> ctl + c
+	
+	-->> downloading in background -> wget -b (url)  -> tail -f wget-log
+	
+	-->>downloading multiple files -> wget -i (file name)
+	
+	
+ifconfig :
+----------
+
+	-->>ifconfig command is used to configure network interfaces.
+	
+	-->> ifconfig -> to view active interfaces
+	
+	-->> ifconfig -a -> to view active and disable interfaces
+	
+	-->> ifconfig eth0 -> to view that particular interfaces
+	
+	-->> ifconfig eth0 down -> disable the interfaces
+
+	-->> ifconfig eth0 up -> active the interfaces
+	
+	-->> ifconfig eth0  -> change subnet mask, ip, Boardcost
+	
+curl :
+------
+
+	-->> same as wget
+	
+	-->> curl [options] [URL...]
+	
+	-->> curl --version
+		
+	-->> curl url -> to view the content 
+	
+	-->> curl -o url -o url -> download multiple files 
+	
+	-->> curl -I url -->> query about HTTP headers
+	
